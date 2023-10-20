@@ -8,6 +8,9 @@ Este é um script em Python para explorar uma vulnerabilidade em instalações d
 Este Script foi criado com auxilio do chatgpt e baseado no payload disponivel em:
 https://www.exploit-db.com/exploits/42149
 
+
+Obrigado Kryoonzz, pelo pelas dicas! 
+
 ## Requisitos
 
 - Python 3.x
